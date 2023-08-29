@@ -12,8 +12,9 @@ import {
   Scripts,
   ScrollRestoration,
 } from "@remix-run/react";
-import PortfolioNavRoute from "./routes/_layout";
+import PortfolioNavRoute from "./routes/_nav";
 import type { V2_MetaFunction } from "@remix-run/node";
+import PortfolioFooterRoute from "./routes/_footer";
 
 
 export const meta: V2_MetaFunction = () => {
@@ -40,9 +41,10 @@ export default function App() {
         <Meta />
         <Links />
       </head>
-      <body>
+      <body className=" bg-purple-950">
         <PortfolioNavRoute />
         <Outlet />
+        <PortfolioFooterRoute />
         <ScrollRestoration />
         <Scripts />
         <LiveReload />
