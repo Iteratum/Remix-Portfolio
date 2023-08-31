@@ -6,7 +6,7 @@ const width = 158
 const height = 48
 export default function Index() {
     return(
-        <div className="mx-auto w-full bg-purple-950 overflow-x-clip text-slate-100 text-lg">
+        <div className="mx-auto w-full bg-purple-950 overflow-x-clip text-lg">
             <div className='w-full h-full'>
                 <img src={image} alt='images' className=' object-cover w-screen h-screen lg:w-[120vw] lg:h-[120vh]'/>
 

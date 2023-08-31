@@ -41,7 +41,7 @@ export default function App() {
         <Meta />
         <Links />
       </head>
-      <body className=" bg-purple-950">
+      <body className="text-white bg-purple-950">
         <PortfolioNavRoute />
         <Outlet />
         <PortfolioFooterRoute />
