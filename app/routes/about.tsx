@@ -14,7 +14,7 @@ export default function AboutRoute() {
                         </svg>
                     </span>
                 </i>
-                <h2 className='relative px-5 text-lg lg:text-2xl font-normal'>FULLSTACK WEB DEVELOER</h2>
+                <h2 className='relative px-5 text-lg lg:text-2xl font-normal'>FULLSTACK WEB DEVELOPER</h2>
                     <div className='border-b-2 w-screen border-white pt-8'></div>
             </div>
 
@@ -44,7 +44,7 @@ export default function AboutRoute() {
                     </div>
                     <div className='relative text-lg'>
                         <h3 className="text-2xl font-medium tracking-tight sm:text-4xl">SKILLS</h3>
-                        <p className='pt-3'>programming: <span>Html, Css, Javascript, React, Tailwind, Bootstrap, Remix</span></p>
+                        <p className='pt-3 text-underline'>programming: <span>Html, Css, Javascript, React, Tailwind, Bootstrap, Remix</span></p>
                         <p className='py-1'>Windows Softwares: <span>Ms Word, Ms Excel, Ms Publisher</span></p>
                         <p>Graphics Designing: <span>Corel draw, Adobe Photoshop, Adobe Illustrator</span></p>
                     </div>

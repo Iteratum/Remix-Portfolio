@@ -10,7 +10,7 @@ export default function PortfolioFooterRoute() {
         <div className="mx-auto z-30 relative bottom-[0vh] w-screen h-48 text-white">
             <div className='border-b-2 w-screen bottom-14 border-white pt-3'></div>
             <div className="mx-auto px-5 mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-xl lg:grid-cols-4">
-                <a href='#'>
+                <a href='https://github.com/Iteratum'>
                     <img
                     className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
                     src={github}
@@ -19,7 +19,7 @@ export default function PortfolioFooterRoute() {
                     height={height}
                     />
                 </a>
-                <a href='#'>
+                <a href='https://www.linkedin.com/in/ogbonna-echefunachukwu-76a100231'>
                     <img
                     className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
                     src={linkedin}
@@ -28,7 +28,7 @@ export default function PortfolioFooterRoute() {
                     height={height}
                     />
                 </a>
-                <a href='#'>
+                <a href='https://stackoverflow.com/users/21852860/ogbonna-echefunachukwu'>
                     <img
                     className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
                     src={stackoverflow}
@@ -37,7 +37,7 @@ export default function PortfolioFooterRoute() {
                     height={height}
                     />
                 </a>
-                <a href='#'>
+                <a href='https://twitter.com/Ogbonna51254876'>
                     <img
                     className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
                     src={x}

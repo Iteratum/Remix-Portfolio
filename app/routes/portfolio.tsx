@@ -4,14 +4,14 @@ const callouts = [
       description: 'Remix, tailwindcss',
       imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-01.jpg',
       imageAlt: 'Portfolio Website',
-      href: '#',
+      href: 'https://remix-portfolio-72si.vercel.app/',
     },
     {
       name: 'BlogHost',
       description: 'React, tailwindcss, django, rest-framework, axios',
       imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-02.jpg',
       imageAlt: 'BlogHost',
-      href: '#',
+      href: 'https://r-blog-git-master-iteratum.vercel.app/',
     },
     
   ]
