@@ -1,5 +1,6 @@
-import { Form } from '@remix-run/react'
 import mypic from 'public/mine.jpg'
+import AboutContactRoute from './about.contact'
+
 export default function AboutRoute() {
     return (
         <div className="mx-auto w-screen">
@@ -24,7 +25,7 @@ export default function AboutRoute() {
                         <div className="lg:pr-4">
                             <div className="lg:max-w-lg">
                                 <h3 className="text-3xl font-bold tracking-tight sm:text-4xl">ABOUT ME</h3>
-                                <p className="mt-6 text-xl leading-8">I am a fullstack developer versed in react.js and django. I develop visually appealing, sealess and responsive web apps in collaboration with UX/UI designers.</p>
+                                <p className="mt-6 text-xl leading-8">I am a fullstack developer versed in react.js and django. I develop visually appealing, seamless and responsive web apps in collaboration with UX/UI designers.</p>
                             </div>
                         </div>
                     </div>
@@ -51,29 +52,7 @@ export default function AboutRoute() {
                 </div>
                 <div className='border-b-2 w-screen border-white pt-10'></div>
             </div>
-
-            <div className='relative pt-10 text-center'>
-                <i className="text-2xl font-medium tracking-tight lg:text-4xl">LET'S CONNECT</i>
-                <h2 className='relative px-5 py-6 text-lg lg:text-2xl font-normal'>FEEL FREE TO CONTACT ME FOR FUTURE WORK AND COLLABORATIONS</h2>
-                <div className='pt-6'>
-                    <Form className='relative mx-auto w-[90vw] px-10 grid grid-cols-1 lg:grid-cols-2 lg:gap-x-24' method='post'>
-                        <div className='relative pt-6 grid gap-y-8'>
-                            <label className='pb-6 text-left'>First Name <input type='text' name='firstname' className='w-full py-2 hover:border-yellow-300 bg-transparent p-0 border-collapse border-b-2 outline-none'></input></label>
-                            <label className='pb-6 text-left'>Email* <input type='email' name='email' required className='w-full py-2 hover:border-yellow-300 bg-transparent p-0 border-collapse border-b-2 outline-none'></input></label>
-                        </div>
-                        <div className='relative pt-6 grid gap-y-8'>
-                            <label className='pb-6 text-left'>Last Name <input type='text' name='lastname' className='w-full py-2 hover:border-yellow-300 bg-transparent p-0 border-collapse border-b-2 outline-none'></input></label>
-                            <label className='pb-6 text-left'>Subject <input type='text' name='subject' className='w-full py-2 hover:border-yellow-300 bg-transparent p-0 border-collapse border-b-2 outline-none'></input></label>
-                        </div>
-                        <div className='relative lg:col-span-2 pt-6'>
-                            <label className='pb-6 text-left'>Leave a message... <textarea className='w-full py-2 hover:border-yellow-300 bg-transparent p-0 border-collapse border-b-2 outline-none'></textarea></label>
-                        </div>
-                        <div className='relative lg:col-span-2 pt-6 pb-16'>
-                            <input type='submit' value='Submit' className='bg-transparent text-base md:text-xl rounded-full px-12 py-2 hover:bg-yellow-300 hover:text-black transition-all duration-700'></input>
-                        </div>
-                    </Form>
-                </div>
-            </div>
+            <AboutContactRoute />
         </div>
     )
 }

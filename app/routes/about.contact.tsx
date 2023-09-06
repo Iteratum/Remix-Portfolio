@@ -15,7 +15,7 @@ export default function AboutContactRoute() {
                         <div className='relative pt-6 grid gap-y-8'>
                             <label className='pb-6 text-left'>Last Name <input type='text' name='lastname' className='w-full py-2 hover:border-yellow-300 bg-transparent p-0 border-collapse border-b-2 outline-none'></input></label>
                             <label className='pb-6 text-left'>Subject <input type='text' name='subject' className='w-full py-2 hover:border-yellow-300 bg-transparent p-0 border-collapse border-b-2 outline-none'></input></label>
-                        </div>m
+                        </div>
                         <div className='relative lg:col-span-2 pt-6'>
                             <label className='pb-6 text-left'>Leave a message... <textarea className='w-full py-2 hover:border-yellow-300 bg-transparent p-0 border-collapse border-b-2 outline-none'></textarea></label>
                         </div>

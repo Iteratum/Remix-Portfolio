@@ -1,17 +1,20 @@
+import image1 from 'public/91076657.png'
+import image2 from 'public/Screenshot (1).png'
+
 const callouts = [
     {
       name: 'Portfolio Website',
       description: 'Remix, tailwindcss',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-01.jpg',
+      imageSrc: image1,
       imageAlt: 'Portfolio Website',
-      href: 'https://remix-portfolio-72si.vercel.app/',
+      href: '/',
     },
     {
       name: 'BlogHost',
       description: 'React, tailwindcss, django, rest-framework, axios',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-02.jpg',
+      imageSrc: image2,
       imageAlt: 'BlogHost',
-      href: 'https://r-blog-git-master-iteratum.vercel.app/',
+      href: 'https://r-blog-6hpbc16sn-iteratum.vercel.app/',
     },
     
   ]
