@@ -1,6 +1,6 @@
-import github from 'public/11388742.png'
-import linkedin from 'public/linkedin (1).png'
-import stackoverflow from 'public/11515918.png'
+import github from 'public/icons8-github.svg'
+import linkedin from 'public/linkedin.png'
+import stackoverflow from 'public/icons8-stack-overflow.svg'
 import x from 'public/x.png'
 const width = 48
 const height = 48

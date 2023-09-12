@@ -3,8 +3,6 @@ import { useState } from "react";
 import stylesheet from "~/tailwind.css";
 
 
-
-
 export const links: LinksFunction = () => [
   { rel: "stylesheet", href: stylesheet },
 ];
@@ -15,7 +13,7 @@ export default function PortfolioNavRoute() {
     function MenuToggle() {
         setMenu(!menu)
     }
-    
+
     return (
         <div className="min-w-full z-30 fixed ">
             <nav className="bg-purple-950 text-white md:bg-transparent border-b-2 border-white">

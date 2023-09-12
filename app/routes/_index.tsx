@@ -1,4 +1,4 @@
-import image from 'public/IMG_20230818_183057_765.jpg'
+import image from 'public/3b385b66-2773-445e-8dae-1a2271e431e2.jpg'
 import image1 from 'public/91076657.png'
 import image2 from 'public/Screenshot (1).png'
 import html from 'public/icons8-html5.svg'
@@ -7,6 +7,7 @@ import javascript from 'public/icons8-javascript.svg'
 import react from 'public/icons8-react-native.svg'
 import python from 'public/icons8-python.svg'
 import django from 'public/icons8-django-48.png'
+import HandleCarousel from '~/components/carousel'
 
 const width = 158
 const height = 48
@@ -14,7 +15,7 @@ export default function Index() {
     return(
         <div className="mx-auto w-full bg-purple-950 overflow-x-clip text-lg">
             <div className='w-full h-full'>
-                <img src={image} alt='images' className=' object-cover w-screen h-screen lg:w-[120vw] lg:h-[120vh]'/>
+                <HandleCarousel />
 
                 <div className='absolute top-32 lg:w-[50%] md:text-xl font-sans flex-wrap px-[5%] '>
                    <div className=''>

@@ -36,7 +36,7 @@ export default function PortfolioRoute() {
                                     <img
                                         src={callout.imageSrc}
                                         alt={callout.imageAlt}
-                                        className="h-full w-full object-cover object-center group-hover:scale-110 transition-all duration-700"
+                                        className="h-full w-full object-cover object-center group-hover:scale-110 transition-all duration-700 border-y-4 border-y-stone-500"
                                     />
                                 </div>
                                 <h3 className="mt-6 text-lg font-bold lg:text-2xl">

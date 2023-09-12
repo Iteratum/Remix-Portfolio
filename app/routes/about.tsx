@@ -2,6 +2,7 @@ import mypic from 'public/mine.jpg'
 import AboutContactRoute from './about.contact'
 
 export default function AboutRoute() {
+    
     return (
         <div className="mx-auto w-screen">
             <div className="whitespace-normal">

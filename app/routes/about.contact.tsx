@@ -1,6 +1,20 @@
 import { Form } from '@remix-run/react'
+import { useEffect } from 'react'
+
 
 export default function AboutContactRoute() {
+    useEffect(() => {
+        const Scroll = () => {
+            window.scrollTo({
+                top: 1350,
+                behavior: "smooth",
+            })
+        }
+        
+        Scroll()
+        
+    }, [])
+    
     return (
         <div className="mx-auto">
             <div className='relative pt-10 text-center'>
@@ -20,7 +34,7 @@ export default function AboutContactRoute() {
                             <label className='pb-6 text-left'>Leave a message... <textarea className='w-full py-2 hover:border-yellow-300 bg-transparent p-0 border-collapse border-b-2 outline-none'></textarea></label>
                         </div>
                         <div className='relative lg:col-span-2 pt-6 pb-16'>
-                            <input type='submit' value='Submit' className='bg-transparent text-base md:text-xl rounded-full px-12 py-2 hover:bg-yellow-300 hover:text-black transition-all duration-700'></input>
+                            <input type='submit' value='Submit' className='bg-transparent text-base md:text-xl rounded-full px-12 py-2 hover:bg-yellow-300 hover:text-black duration-700'></input>
                         </div>
                     </Form>
                 </div>
