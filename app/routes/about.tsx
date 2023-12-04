@@ -31,7 +31,7 @@ export default function AboutRoute() {
                         </div>
                     </div>
                     <div className=" lg:sticky lg:top-4 w-[90%] top-[6vh] lg:col-start-2 lg:row-span-2 lg:row-start-1 overflow-x-clip">
-                        <img className="object-cover rounded-xl shadow-xl ring-1 ring-gray-400/10" src={mypic} alt="my picture" />
+                        <img className="object-cover rounded-xl shadow-xl ring-1 ring-gray-400/10" src={mypic} alt="my portrait" />
                     </div>
                 </div>
                 <div className='border-b-2 w-screen border-white pt-10'></div>

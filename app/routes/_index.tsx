@@ -1,4 +1,3 @@
-import image from 'public/3b385b66-2773-445e-8dae-1a2271e431e2.jpg'
 import image1 from 'public/91076657.png'
 import image2 from 'public/Screenshot (1).png'
 import html from 'public/icons8-html5.svg'
@@ -21,11 +20,11 @@ export default function Index() {
                    <div className=''>
                         <h4 className='text-xl'>WEB DEVELOPER</h4>
                         <h1 className='text-3xl lg:text-5xl font-bold py-6'><i>OGBONNA EMMANUEL</i></h1>
-                        <h4>I'm a fullstack web developer based in Nigeria that specializes in creating stunning, user-friendly and mobile responsive websites. I believe in the power of programming and design to shape the future of technology.</h4>
+                        <h4>I'm a fullstack web developer that specializes in creating stunning, user-friendly and mobile responsive websites. I believe in the power of programming and design to shape the future of technology.</h4>
                    </div>
                     
                     <div className='relative grid grid-cols-2 w-[90%] top-[6vh]'>
-                        <img src={image1} className='object-cover w-36 h-36 md:h-72 md:w-72 rounded-xl' width={36} height={36} />
+                        <img src={image1} className='object-cover w-36 h-36 md:h-72 md:w-72 rounded-xl' width={36} height={36} alt='screenshot' />
                         
                         <div className='z-10  pl-5'>
                             <p className='text-base md:text-lg font-semibold pb-2 lg:text-2xl'>My Latest Work</p>
@@ -55,7 +54,7 @@ export default function Index() {
                 <div className=' top-24'>
                     <div>
                         <h1 className='text-4xl font-serif py-10 pl-[8%] lg:text-6xl lg:py-16'>01<span className='text-lg lg:text-2xl pl-10'>PORTFOLIO WEBSITE</span></h1>
-                        <img src={image1} className='relative w-[90vw] h-[50vh] md:h-[70vh] object-cover rounded-xl left-10 md:left-28 lg:left-56 border-y-4 border-y-stone-500' />
+                        <img src={image1} className='relative w-[90vw] h-[50vh] md:h-[70vh] object-cover rounded-xl left-10 md:left-28 lg:left-56 border-y-4 border-y-stone-500' alt='screenshot' />
                         <i className='pl-[8%] text-4xl font-bold py-8 flex'>PORTFOLIO WEBSITE
                             <span className=' pl-6'>
                                 <svg preserveAspectRatio="xMidYMid meet" data-bbox="12.335 29.5 172.265 141" viewBox="12.335 29.5 172.265 141" height="50" width="50" xmlns="http://www.w3.org/2000/svg" data-type="color" role="presentation" aria-hidden="true" aria-label="">
@@ -77,7 +76,7 @@ export default function Index() {
 
                     <div className=' pt-54'>
                         <h1 className='text-4xl font-serif py-10 pl-[8%] lg:text-6xl lg:py-16'>02<span className='text-lg lg:text-2xl pl-10'>BLOGGING SITE</span></h1>
-                        <img src={image2} className='relative w-[90vw] h-[50vh] md:h-[70vh] object-cover rounded-xl left-10 md:left-28 lg:left-56 border-y-4 border-y-stone-500' />
+                        <img src={image2} className='relative w-[90vw] h-[50vh] md:h-[70vh] object-cover rounded-xl left-10 md:left-28 lg:left-56 border-y-4 border-y-stone-500' alt='screenshot' />
                         <i className='pl-[8%] text-4xl font-bold py-8 flex'>BLOGHOST
                             <span className=' pl-6'>
                                 <svg preserveAspectRatio="xMidYMid meet" data-bbox="12.335 29.5 172.265 141" viewBox="12.335 29.5 172.265 141" height="50" width="50" xmlns="http://www.w3.org/2000/svg" data-type="color" role="presentation" aria-hidden="true" aria-label="">
@@ -101,7 +100,7 @@ export default function Index() {
                         <div className="bg-white py-20">
                             <div className="mx-auto min-w-full">
                                 <h2 className="text-center text-lg font-bold md:text-2xl md:font-bold leading-8 text-gray-900">
-                                    Tools And Techonologies Used🦾
+                                    Tools And Tech Stack🦾
                                 </h2>
                                 <div className="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-6">
                                     <img

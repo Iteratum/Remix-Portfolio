@@ -1,4 +1,4 @@
-import { LinksFunction } from "@remix-run/node";
+import type { LinksFunction } from "@remix-run/node";
 import { useState } from "react";
 import stylesheet from "~/tailwind.css";
 
@@ -26,10 +26,8 @@ export default function PortfolioNavRoute() {
                         </div>
                         <div className="hidden md:block">
                             <div className="ml-10 flex items-baseline space-x-4">
-                                <a href="/" className="bg-gray- hover:text-yellow-300 rounded-md px-3 py-2 text-xl font-bold">HOME</a>
                                 <a href="/portfolio" className="hover:text-yellow-300 rounded-md px-3 py-2 text-xl font-bold">PORTFOLIO</a>
                                 <a href="/about" className="hover:text-yellow-300 rounded-md px-3 py-2 text-xl font-bold">ABOUT</a>
-                                <a href="/about/contact" className="hover:text-yellow-300 rounded-md px-3 py-2 text-xl font-bold">CONTACT</a>
                             </div>
                         </div>
                         <div className="-mr-2 flex md:hidden">
@@ -51,10 +49,8 @@ function MobileMenu() {
     return (
         <div className="block z-50 text-center" id="mobile-menu">
             <div className="space-y-1 px-2 pb-3 pt-2 sm:px-3">
-              <a href="/" className="bg-gray-900 text-amber-500 block rounded-md px-3 py-2 text-base font-medium">HOME</a>
               <a href="/portfolio" className="hover:bg-gray-700 hover:text-amber-500 block rounded-md px-3 py-2 text-base font-medium">PORTFOLIO</a>
               <a href="/about" className="hover:bg-gray-700 hover:text-amber-500 block rounded-md px-3 py-2 text-base font-medium">ABOUT</a>
-              <a href="/about/contact" className="hover:bg-gray-700 hover:text-amber-500 block rounded-md px-3 py-2 text-base font-medium">CONTACT</a>
             </div>
         </div>
     )

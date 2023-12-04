@@ -1,5 +1,5 @@
 ///import { cssBundleHref } from "@remix-run/css-bundle";
-import type { LinksFunction } from "@remix-run/node";
+import type { LinksFunction, V2_MetaFunction } from "@remix-run/node";
 import stylesheet from "~/tailwind.css";
 import {
   Links,
@@ -10,7 +10,6 @@ import {
   ScrollRestoration,
 } from "@remix-run/react";
 import PortfolioNavRoute from "./routes/_nav";
-import type { V2_MetaFunction } from "@remix-run/node";
 import PortfolioFooterRoute from "./routes/_footer";
 
 

@@ -1,59 +1,12 @@
 import { Form } from '@remix-run/react'
-import type { ActionFunction } from '@remix-run/node'
-import { useEffect } from 'react'
-import { Button, Html } from '@react-email/components'
-import Plunk from '@plunk/node'
-import { render } from 'react-dom'
-
-
-function Email(props:any) {
-    const { url } = props
-
-    return (
-        <Html lang="en">
-            <Button href={url}>Click me</Button>
-        </Html>
-    )
-}
-
-export const action: ActionFunction = async ({ request }: { request: any }) => {
-    const formData = await request.formData()
-    const firstname = formData.get('firstname')
-    const lastname = formData.get('lastname')
-    const email = formData.get('email')
-    const subject = formData.get('subject')
-    const content = formData.get('content')
-
-    const plunk = new Plunk(process.env.PLUNK_API_KEY)
-    
-    const emailHtml = render(<Email url="https://remix-portfolio-git-upgrade-iteratum.vercel.app/about/contact" />)
-    
-    plunk.emails.send({
-        to: 'emmaogbo2002@gmail.com',
-        subject: subject,
-        body: emailHtml,
-    })
-}
-
 
 
 export default function AboutContactRoute() {
   
-    useEffect(() => {
-        const Scroll = () => {
-            window.scrollTo({
-                top: 1350,
-                behavior: "smooth",
-            })
-        }
-        
-        Scroll()
-        
-    }, [])
-
+    
     
     return (
-        <div className="mx-auto">
+        <div id="ScrollContact" className="mx-auto">
             <div className='relative pt-10 text-center'>
                 <i className="text-2xl font-medium tracking-tight lg:text-4xl">LET'S CONNECT</i>
                 <h2 className='relative px-5 py-6 text-lg lg:text-2xl font-normal'>FEEL FREE TO CONTACT ME FOR FUTURE WORK AND COLLABORATIONS</h2>
@@ -82,3 +35,12 @@ export default function AboutContactRoute() {
         </div>
     )
 }
+
+/*<script>
+    const ScrollContact = document.getElementById('ScrollContact')
+    document.addEventListener('load', Scroll)
+    
+    function Scroll() {
+        ScrollContact.scrollIntoView()
+    }
+</script>*/
