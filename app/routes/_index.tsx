@@ -1,5 +1,5 @@
 import image1 from 'public/91076657.png'
-import image2 from 'public/Screenshot (1).png'
+import image2 from 'public/Screenshot (3).png'
 import html from 'public/icons8-html5.svg'
 import css from 'public/icons8-css.svg'
 import javascript from 'public/icons8-javascript.svg'
@@ -75,9 +75,9 @@ export default function Index() {
                     </div>
 
                     <div className=' pt-54'>
-                        <h1 className='text-4xl font-serif py-10 pl-[8%] lg:text-6xl lg:py-16'>02<span className='text-lg lg:text-2xl pl-10'>BLOGGING SITE</span></h1>
+                        <h1 className='text-4xl font-serif py-10 pl-[8%] lg:text-6xl lg:py-16'>02<span className='text-lg lg:text-2xl pl-10'>COMPANY WEBSITE</span></h1>
                         <img src={image2} className='relative w-[90vw] h-[50vh] md:h-[70vh] object-cover rounded-xl left-10 md:left-28 lg:left-56 border-y-4 border-y-stone-500' alt='screenshot' />
-                        <i className='pl-[8%] text-4xl font-bold py-8 flex'>BLOGHOST
+                        <i className='pl-[8%] text-4xl font-bold py-8 flex'>CLEARLINK
                             <span className=' pl-6'>
                                 <svg preserveAspectRatio="xMidYMid meet" data-bbox="12.335 29.5 172.265 141" viewBox="12.335 29.5 172.265 141" height="50" width="50" xmlns="http://www.w3.org/2000/svg" data-type="color" role="presentation" aria-hidden="true" aria-label="">
                                     <g>
@@ -89,8 +89,8 @@ export default function Index() {
                         </i>
                         <div className='relative'>
                             <div className='pl-[8%]'>
-                                <p className='pb-4'>A sample of a company blog</p>
-                                <a href='https://r-blog-6hpbc16sn-iteratum.vercel.app/'><button className=' top-7 rounded-full py-3 px-10 border-solid border-2 hover:bg-yellow-300 hover:text-black'>View Site</button></a>
+                                <p className='pb-4'>A cloned version of a SAAS company website</p>
+                                <a href='https://iteratum-clearlink-7ed6w4yla-iteratum.vercel.app/'><button className=' top-7 rounded-full py-3 px-10 border-solid border-2 hover:bg-yellow-300 hover:text-black'>View Site</button></a>
                             </div>
                             <div className='border-b-2 w-screen border-white pt-14'></div>
                         </div>

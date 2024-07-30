@@ -1,5 +1,5 @@
 import image1 from 'public/91076657.png'
-import image2 from 'public/Screenshot (1).png'
+import image2 from 'public/Screenshot (3).png'
 
 const callouts = [
     {
@@ -10,11 +10,11 @@ const callouts = [
       href: '/',
     },
     {
-      name: 'BlogHost',
-      description: 'React, tailwindcss, django, rest-framework, axios',
+      name: 'ClearLink',
+      description: 'React, tailwindcss',
       imageSrc: image2,
-      imageAlt: 'BlogHost',
-      href: 'https://r-blog-6hpbc16sn-iteratum.vercel.app/',
+      imageAlt: 'Clearlink',
+      href: 'https://iteratum-clearlink-7ed6w4yla-iteratum.vercel.app/',
     },
     
   ]

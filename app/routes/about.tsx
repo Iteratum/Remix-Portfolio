@@ -41,7 +41,7 @@ export default function AboutRoute() {
                 <div className='mx-auto px-10 grid grid-cols-1 lg:grid-cols-2 lg:gap-x-8'>
                     <div>
                         <h3 className="text-2xl font-medium tracking-tight sm:text-4xl">CERTIFICATION</h3>
-                        <p className='pt-3'>Harvard CS50 Web Development With Python And Javascript ( currently - 2023 )</p>
+                        <p className='pt-3'>Harvard CS50 Web Development With Python And Javascript ( 2024 )</p>
                         <p className='py-1'></p>
                     </div>
                     <div className='relative text-lg'>
